@@ -1,0 +1,28 @@
+.hero {
+    background: url("../img/fondo-p.png");
+    background-position: center;
+    background-size: cover;
+    height: 93vh;
+    width: 100%;
+}
+
+.titulo {
+    color: aliceblue;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
+.boton {
+    margin-top: 30px;
+    width: 200px;
+}
+
+footer {
+    margin-top: 50px;
+    background: #262626;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
