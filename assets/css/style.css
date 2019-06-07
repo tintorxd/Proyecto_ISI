@@ -1,0 +1,84 @@
+body{
+  background-color: #265077;
+}
+
+#content{
+  background-color: white;
+  color: black;
+}
+
+#content h1{
+  text-align: center;
+}
+
+#content p{
+  text-align: justify;
+}
+
+#content img{
+  height: 350px;
+  width: auto;
+}
+
+#header{
+  background-color: #265077;
+}
+
+#automoviles{
+  background-color: orangered;
+  color: white;
+  background-image: url('../img/automovil.png');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: 50%;
+}
+
+#energia{
+  background-color: #1f6525;
+  color: white;
+  background-image: url('../img/energy.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-position-y: 25%;
+}
+
+#medicina{
+  background-color: #78244c;
+  color: white;
+  background-image: url('../img/medicine.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-position-y: 25%;
+}
+
+#comercio{
+  background-color: #2d283e;
+  color: white;
+  background-image: url('../img/e-commerce.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-position-y: 25%;
+}
+
+#edificios{
+  background-color: #802bb1;
+  color: white;
+  background-image: url('../img/building.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-position-y: 25%;
+}
+
+#casas{
+  background-color: #0671a1;
+  color: white;
+  background-image: url('../img/house.png');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: 50%;
+  background-position-y: 25%;
+}
