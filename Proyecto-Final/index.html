@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos-principal.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Slab|Rubik|Ubuntu&display=swap" rel="stylesheet">
     <title>IoT</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-fixed">
         <a class="navbar-brand" href="#"> <img src="img/logo.png" width="30" height="30" alt=""> Internet de las Cosas</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,13 +32,14 @@
                     <a class="nav-link" href="components/medica.html">Salud</a>
                 </li>
             </ul>
-            <span class="navbar-text">
+            <!-- <span class="navbar-text">
             Navbar text with an inline element
-            </span>
+            </span> -->
         </div>
     </nav>
-    <div class="hero">
-        <div class="titulo">
+    <div class="hero ">
+        <div class="titulo animated bounceInDown slow">
+            <img src="img/logo.png" alt="">
             <h1>Internet de las Cosas</h1>
             <div>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aperiam provident veniam est aliquid itaque aspernatur nam consectetur consequuntur. Maxime saepe eveniet fugiat cupiditate, aspernatur amet qui quae veniam commodi.
@@ -47,7 +49,46 @@
     </div>
 
     <section class="primera-seccion">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quod obcaecati ducimus, aut officiis, molestias aliquid saepe omnis cumque asperiores architecto, magni aperiam quidem commodi amet quo recusandae impedit itaque.
+
+        <div class="row m-2">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;margin: 0 auto;">
+                    <img src="img/auto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Automoviles</h5>
+                        <p class="card-text" style="text-align: justify">Los vehículos inteligentes se están convirtiendo en el nuevo paradigma de la industria automotriz: un auto conectado con todo, o casi todo, y que es capaz de entender lo que ocurre a su alrededor.</p>
+                        <div style="text-align: center">
+                            <a href="components/automoviles.html" class="btn btn-primary">Ver más...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;margin: 0 auto;">
+                    <img src="img/energias.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Energia</h5>
+                        <p class="card-text" style="text-align: justify">La importancia económica del sector energético es evidente; hablamos de un campo que tiene que ver con la explotación de hidrocarburos y la generación de electricidad.</p>
+                        <div style="text-align: center">
+                            <a href="components/energetico.html" class="btn btn-primary">Ver más...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;margin: 0 auto;">
+                    <img src="img/telemedicina-tecnologia-logro-cambiar-atencion-medica-argentina_1_2552113.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Salud</h5>
+                        <p class="card-text" style="text-align: justify">Varios beneficios importantes están impulsando a las organizaciones de salud a abrazar un futuro conectado.La posibilidad de mejorar los resultados de los pacientes cuando los datos se comparten en tiempo real. </p>
+                        <div style="text-align: center">
+                            <a href="components/medica.html" class="btn btn-primary">Ver más...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <footer>
