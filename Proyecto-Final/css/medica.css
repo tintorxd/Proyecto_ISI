@@ -1,3 +1,40 @@
 p {
     font-size: 1.4em;
 }
+
+.color {
+    background: #FFD700;
+    padding: 10px;
+    color: white;
+}
+
+.fondo {
+    background: url(../img/dispositivos.jpg);
+    background-size: cover;
+    height: 615px;
+    background-position-y: -20px;
+}
+
+.contenedors {
+    /* width: 60%; */
+    margin: 0 auto;
+    padding: 148.3px;
+    background: rgba(0, 0, 0, 0.479);
+    color: white;
+}
+
+.borde {
+    border-radius: 56px 56px 56px 56px;
+    -moz-border-radius: 56px 56px 56px 56px;
+    -webkit-border-radius: 56px 56px 56px 56px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.75);
+}
+
+.centro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
